@@ -15,3 +15,4 @@ function colorHexadecimal(){
     return aux;
 }
 
+colorHexadecimal();
