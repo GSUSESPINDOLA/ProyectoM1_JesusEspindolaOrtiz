@@ -1,41 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="icon" type="image/png" href="./img/pintar.png">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="app.js"></script>
-    <title>Paleta de Colores</title>
-   
-</head>
-<body>
-       <nav class="nav">
-       <h1 id="title">Colorfly Studio</h1>
+ 
+    <title>ColorFlyStudio</title>
 
+  </head>
+<body>
+
+  <nav class="nav">
+     
 
         <a href="#" class="enlace">
             <img src="./img/pintar.png" alt="" class="logo">
         </a>
         <ul class="nav-menu">
-            <li class="items"><a href="" class="ancles">Home</a></li>
-            <li class="items"><a href="" class="ancles">Random Palet</a></li>
-            <li class="items"><a href="" class="ancles">Random RGBA</a></li>
-            <li class="items"><a href="" class="ancles">Contact</a></li>
+            <li class="items"><a href="#" class="ancles active">Home</a></li>
+            <li class="items"><a href="#" class="ancles">App</a></li>
+            <li class="items"><a href="#" class="ancles">Contactans</a></li>
+          
         </ul>
-       </nav>
+  </nav>
 
-       <div class="centrar-flex" id="paleta1">
+  <h1>Welcome to Random Palet-Color</h1>
 
-       </div>
-       <div id="contenedor" class="centrar-flex">
-          <p id="color">#2B807B</p>
-            <button id="boton-color">
-            Change Color
-            </button>
-       </div>
+  <div id="controles">
+    <label><input type="radio" name="cantidad" value="2" checked> 2 Colors</label>
+    <label><input type="radio" name="cantidad" value="4"> 4 Colors</label>
+    <label><input type="radio" name="cantidad" value="6"> 6 Colores</label>
+  </div>
 
-    <script src="./app.js"></script>
-    
+  <button id="btnGenerar">Generar Colores</button>
+
+  <div id="paleta"></div>
+
+  <script src="./app.js">
+   
+  </script>
+
 </body>
 </html>
