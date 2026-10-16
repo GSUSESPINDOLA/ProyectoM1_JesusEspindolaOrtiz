@@ -50,7 +50,7 @@
 
     /*TITLE*/
       h1{
-        margin-left: 120px;
+        margin-left: 160px;
       
         color: var(--turquesa);
         font-family: Verdana, sans-serif;
@@ -130,6 +130,7 @@
       align-items: flex-end;
       justify-content: center;
       color: var(--blanco);
+      font-size: 15px;
       font-weight: bold;
       text-shadow: 0 0 4px #000;
       padding-bottom: 8px;
